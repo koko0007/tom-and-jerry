@@ -4,7 +4,7 @@ body{
 }
 .about{
     
-    border-bottom:100px solid rgb(69, 70, 7);
+    border-bottom:100px solid rgb(89, 90, 11);
     display: flex;
     background-image: linear-gradient(red,orange,white,yellow);
     
@@ -59,9 +59,8 @@ h2{
     font-size: 35px;
 }
 .tom{
-    
-    margin-bottom: 10px;
-    display: flex;
+    border-bottom:100px solid rgb(54, 31, 136);
+     display: flex;
     background-image: linear-gradient(navy ,skyblue, white,rgb(33, 33, 160));
 }
 .text-two{
@@ -72,4 +71,36 @@ h2{
     padding-right: 20px;;
     margin-right: 80px;
     margin-bottom: 30px;
+}
+.tnj{
+    overflow:auto;
+
+    border-bottom:100px solid rgb(69, 70, 7);
+    
+    background-image: linear-gradient(red,rgb(221, 210, 190),rgb(211, 199, 199),rgb(212, 212, 9));
+}
+.x{
+    display: flex;
+    
+}
+
+.tommy{
+    padding: 20px;
+    margin: 80px;
+    
+   
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px red;
+}
+#slice{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(251, 255, 4),rgb(124, 5, 5));
+    border-image-slice: 1;
+    
+}
+footer
+{
+    overflow:auto;
+    text-align: center;
+    background-image: linear-gradient(purple,yellow,red,white);
 }
