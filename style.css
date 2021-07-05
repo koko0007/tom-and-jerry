@@ -2,6 +2,55 @@ body{
     font-family: 'Otomanopee One', sans-serif;
     margin: 0;
 }
+h4{
+    width: 50%;
+    overflow: auto;
+    font-size: 20px;
+    padding: 15px 5px;
+    margin: 5px 5px 5px;
+    color:orange;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(8, 8, 8), 0 0 0.2em rgb(18, 18, 19);
+}
+.navb{
+    overflow: auto;
+    border-bottom: 8px solid black;
+    display: flex;
+    background-image: linear-gradient(red,rgb(136, 11, 11));
+}
+.navbar{
+    width: 50%;
+    padding: ;
+    margin: 0 , 10px;
+    
+    
+}
+.ul{
+    text-align: center;
+}
+.navbar ul li {
+    
+
+    float: right;
+    overflow: hidden;
+    padding-right: 40px;
+    margin-top: 8px;
+    
+    
+}
+.navbar ul li a{
+    text-align: center;
+    color: black;
+    padding: 5px;
+    background-color: none;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+li a:hover {
+    background-color:rgb(194, 72, 15);
+    border-radius: 150px;
+  }
+
 .about{
     
     border-bottom:100px solid rgb(89, 90, 11);
